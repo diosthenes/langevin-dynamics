@@ -1,1 +1,2 @@
-## langevin-dynamics
+# langevin-dynamics
+This code aims to simulate the dynamics of a particle governed by the Langevin equation, in the presence of an external force, temperature gradients, and such. The numerical integration is done by varying methods, including Euler-Maruyama, Milstein. Future updates may include Rungen-Kutta method. The obtained particle density at the end of the simulation run is then compared against the Probability density predicted by the Fokker-Planck equation, and checked whetehr the results agree.
